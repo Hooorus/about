@@ -1,28 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <meta name="viewport" charset="UTF-8"
           content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
     <title>About Me</title>
 </head>
 <body>
 <div id="app">
-    <v-app>
-        <v-main>
-            <v-container>Hello world</v-container>
-        </v-main>
-    </v-app>
+    <div class="d-flex flex-column container text-center top_content">
+        <div class="row justify-content-center mt-5 mb-3 avatar_frame">
+            <div class="img-fluid avatar"></div>
+        </div>
+        <div class="top_my_name my-1">
+            <p class="col">Yiming Liao</p>
+        </div>
+        <div class="d-flex justify-content-around top_nav my-4">
+            <a href="#" class="mx-1 nav_link">HomePage</a>
+            <a href="#" class="mx-1 nav_link">Competition</a>
+            <a href="#" class="mx-1 nav_link">Programme</a>
+            <a href="#" class="mx-1 nav_link">Research</a>
+        </div>
+        <div class="text-start your_description">
+            Hello, I'm Yinuo Liu (also call me Nicole). I am an undergraduate student majoring in psychology (cognitive neuroscience trakc) and minoring in English translation and interpretation at the Zhejiang University, China (ranks 42nd in QS ranking). I'm expected to graduate in June, 2023.
+            <br>
+            <br>
+            I'm interested in the cognitive and neural mechanism underlying human language processing. I want to combine computational models and neural signals to understand it. I'm now applying for some Ph.D programs.
+            <br>
+            <br>
+            I worked as a supervised researcher both in Cognomics Lab (PI: Prof. Xiangzhen Kong, one of the collaborators of Prof. Ev Fedorenko) and Attention and Memory Lab (PI: Prof. Ying Cai).
+            In the Cognomics Lab, I conducted independent research in the language brain networks. I have a poster presentation about it at the OHBM 2022 Annual Meeting.
+            In the Attention and Memory Lab, my work focuses on the feature binding in working memory. One of my works has been accepted by the 15th Annual Meeting of Chinese Neuroscience Society.
+            Currenly, I'm a part-time research assistant in Language Brains and Machines Lab, working with Prof. Jixing Li.
+            Welcome to check the details of them and my other programs in the research page.
+            <br>
+            <br>
+            You can email me for anything you are interested in: zjuonellllyn@gmail.com
+        </div>
+    </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
-<script>
-    new Vue({
-        el: '#app',
-        vuetify: new Vuetify(),
-    })
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous">
 </script>
+<link type="text/css" rel="stylesheet" href="./css/custom.css">
 </body>
 </html>
