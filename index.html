@@ -13,20 +13,17 @@
 <body>
 <div id="app">
     <div class="d-flex flex-column container text-center top_content">
-        <div class="row justify-content-center mt-5 mb-3 avatar_frame">
+        <div class="row justify-content-center mt-2 mb-1 avatar_frame">
             <div class="img-fluid avatar"></div>
         </div>
-        <div>
-            <p class="my_name my-1">Yiming Liao</p>
+        <p class="my_name mb-0">Yiming Liao</p>
+        <div class="my-1 social_link">
+            <a href="https://github.com/Hooorus/" class="mx-2">Github <i class="bi bi-github"></i></a>
+            <a href="https://blog.csdn.net/qq_52480906" class="mx-2">CSDN <i class="bi bi-c-square-fill"></i></a>
+            <a href="https://stackoverflow.com/users/22699197/yiming-liao" class="mx-2">Stack Overflow <i
+                    class="bi bi-stack-overflow"></i></a>
         </div>
-        <div class="my-2 social_link">
-            <a href="https://github.com/Hooorus/" class="mx-2"><i class="bi bi-github"></i></a>
-            <a href="https://www.youtube.com/" class="mx-2"><i class="bi bi-youtube"></i></a>
-            <a href="https://www.instagrtam.com/" class="mx-2"><i class="bi bi-instagram"></i></a>
-            <a href="https://www.twitter.com/" class="mx-2"><i class="bi bi-twitter"></i></a>
-            <a href="https://www.facebook.com/" class="mx-2"><i class="bi bi-facebook"></i></a>
-        </div>
-        <div class="d-flex justify-content-around top_nav my-4 flex-wrap">
+        <div class="d-flex justify-content-around top_nav my-2 flex-wrap">
             <a href="/about" class="nav_link">
                 <div class="mx-2">Home</div>
             </a>
@@ -43,66 +40,103 @@
                 <div class="mx-2">Other</div>
             </a>
         </div>
-
+        <!--        road map-->
+        <div id="chartdiv"></div>
         <div class="text-start your_description">
             <h4><strong>Freshman</strong></h4>
             <h5>Activity</h5>
-            In the freshman stage, the main tasks were the daily <i>ACM</i> programming training and programming competitions.
-            Because I participated in the school ACM team, the daily competitions followed the guidance of the coach <strong style="color: #f6b130">(Associate Professor: Jie Luo)</strong>
-            and the arrangement of the seniors. I have participated in about a dozen online and offline programming competitions of
-            various sizes, including programming competitions held by various universities, <i>Zhejiang Provincial Team Programming Ladder
+            In the freshman stage, the main tasks were the daily <i>ACM</i> programming training and programming
+            competitions.
+            Because I participated in the school ACM team, the daily competitions followed the guidance of the coach
+            <strong style="color: #f6b130">(Associate Professor: Jie Luo)</strong>
+            and the arrangement of the seniors. I have participated in about a dozen online and offline programming
+            competitions of
+            various sizes, including programming competitions held by various universities, <i>Zhejiang Provincial Team
+            Programming Ladder
             Competition</i>, and <i>Zhejiang Province Tusson Future Cup programming competition</i>, etc.
             <h5>Experience</h5>
-            At this stage, I have overcome many algorithmic problems and mastered the flexible use of many algorithmic knowledge and
+            At this stage, I have overcome many algorithmic problems and mastered the flexible use of many algorithmic
+            knowledge and
             skills. I used my existing knowledge to solve the <i>Data Structure</i> problem, submitted and passed
-            (Accept, abbreviation: AC) the code test (Debug). This stage helped me develop from a person who was afraid of this
-            field at the beginning to a person who understands data structure and algorithm problems and can solve some difficulties
-            independently. I have mastered a lot of data structure and algorithm knowledge, such as: <i>data structure basics</i>, <i>graph
-            theory</i>, <i>dynamic programming (DP)</i>, etc., and can use C++ language and its internal <i>STL functions</i> more proficiently, and
-            abstract some common problems into some common problems. algorithm problem. This lays the foundation for solving some
+            (Accept, abbreviation: AC) the code test (Debug). This stage helped me develop from a person who was afraid
+            of this
+            field at the beginning to a person who understands data structure and algorithm problems and can solve some
+            difficulties
+            independently. I have mastered a lot of data structure and algorithm knowledge, such as: <i>data structure
+            basics</i>, <i>graph
+            theory</i>, <i>dynamic programming (DP)</i>, etc., and can use C++ language and its internal <i>STL
+            functions</i> more proficiently, and
+            abstract some common problems into some common problems. algorithm problem. This lays the foundation for
+            solving some
             more complex and difficult problems in the future.
             <br>
             <br>
             <h4><strong>Sophomore</strong></h4>
             <h5>Activity</h5>
-            In the sophomore stage, I was mainly engaged in the work of <i>Design and Development of Web Applications</i>, supplemented by
-            <i>Technical Architecture Design</i> in the <i>Innovation and Entrepreneurship Competition</i>. When I was first exposed to
-            knowledge related to web application design and development in the classroom, I became very interested in it.
-            Therefore, in the following time, I invested a lot of time and energy, researched, studied and made many small projects.
-            As my technical skills gradually improved, I also participated in many competitions related to this to prove my ability.
-            At the same time, I also applied this kind of knowledge to innovation and entrepreneurship projects, providing reasonable
+            In the sophomore stage, I was mainly engaged in the work of <i>Design and Development of Web
+            Applications</i>, supplemented by
+            <i>Technical Architecture Design</i> in the <i>Innovation and Entrepreneurship Competition</i>. When I was
+            first exposed to
+            knowledge related to web application design and development in the classroom, I became very interested in
+            it.
+            Therefore, in the following time, I invested a lot of time and energy, researched, studied and made many
+            small projects.
+            As my technical skills gradually improved, I also participated in many competitions related to this to prove
+            my ability.
+            At the same time, I also applied this kind of knowledge to innovation and entrepreneurship projects,
+            providing reasonable
             technical ideas and product architecture design for the innovation and entrepreneurship team.
             <h5>Experience</h5>
-            At this stage, I learned and mastered a lot of knowledge about <i>Web development</i> (Html, Css, JavaScript front-end,
-            Java back-end, MySql database) by participating in development-related competitions and developing small websites
-            and systems by myself, and mastered many popular <i>Web development technology frameworks</i> (such as Vue.js and SpringBoot).
-            And practiced software and application design patterns and development processes for the first time in the team. In addition,
-            the <i>Innovation and Entrepreneurship Competition</i> also helped me cultivate innovative thinking and improve my ability to
+            At this stage, I learned and mastered a lot of knowledge about <i>Web development</i> by participating in
+            development-related competitions and developing small websites
+            and systems by myself, and mastered many popular <i>Web development technology frameworks</i> (such as
+            Vue.js and SpringBoot).
+            And practiced software and application design patterns and development processes for the first time in the
+            team. In addition,
+            the <i>Innovation and Entrepreneurship Competition</i> also helped me cultivate innovative thinking and
+            improve my ability to
             cooperate with a team.
             <br>
             <br>
             <h4><strong>Junior</strong></h4>
             <h5>Activity</h5>
-            In the junior year, my work focused on learning in the field of <i>Data Mining and Artificial Intelligence</i> and <i>improvement
-            of academic ability</i>, supplemented by <i>software design and development</i> and <i>Internet + China University Student Innovation
-            and Entrepreneurship Competition</i>. I participated in the <i>Huawei Cloud HCCDA-AI training</i>, the <i>Machine Learning and Data Mining
-            scientific research project</i> of <i>Path Academic College</i>, and published an overseas conference paper. As the technical support of the
-            innovation and entrepreneurship team, I continue to assist the team to improve the technology of innovation and
-            entrepreneurship projects At the same time, my ability has been appreciated by many school leaders, who gave me some task
-            requirements, such as: I hope to develop the voting system of the innovation and entrepreneurship college used within the
-            school, and the development of the management system of the Chinese pharmacy. Live up to expectations, I In a short period
-            of time, the <i>voting system of the Innovation and Entrepreneurship Academy</i> and the management system of <i>TCMA Chinese pharmacy</i>
-            were developed, and the project was delivered to the leaders for acceptance and display, which received their unanimous
-            praise (there are screenshots to prove it). At the same time, I also once again cooperated with a powerful The technical
-            team developed the <i>Aojie teaching management platform</i> together and applied for the software copyright.
+            In the junior year, my work focused on learning in the field of <i>Data Mining and Artificial
+            Intelligence</i> and <i>improvement
+            of academic ability</i>, supplemented by <i>software design and development</i> and <i>Internet + China
+            University Student Innovation
+            and Entrepreneurship Competition</i>. I participated in the <i>Huawei Cloud HCCDA-AI training</i>, the <i>Machine
+            Learning and Data Mining
+            scientific research project</i> of <i>Path Academic College</i>, and published an overseas conference paper.
+            As the technical support of the
+            innovation and entrepreneurship team, I continue to assist the team to improve the technology of innovation
+            and
+            entrepreneurship projects At the same time, my ability has been appreciated by many school leaders, who gave
+            me some task
+            requirements, such as: I hope to develop the voting system of the innovation and entrepreneurship college
+            used within the
+            school, and the development of the management system of the Chinese pharmacy. Live up to expectations, I In
+            a short period
+            of time, the <i>voting system of the Innovation and Entrepreneurship Academy</i> and the management system
+            of <i>TCMA Chinese pharmacy</i>
+            were developed, and the project was delivered to the leaders for acceptance and display, which received
+            their unanimous
+            praise (there are screenshots to prove it). At the same time, I also once again cooperated with a powerful
+            The technical
+            team developed the <i>Aojie teaching management platform</i> together and applied for the software
+            copyright.
             <br>
             <br>
             <h5>Experience</h5>
-            At this stage, through <strong>1.</strong> Participating in various artificial intelligence projects and training, I have mastered classic
-            algorithm models and artificial intelligence models currently popular in various fields. <strong>2.</strong> Participate in development-related
-            competitions and help lead the development of the system to further improve the understanding and familiarity of application
-            development and the ability of teamwork development. <strong>3.</strong> Participated in the <i>Internet + Chinese University Student Innovation
-            and Entrepreneurship Competition</i>, and participated in the design and invention of a diagnosis and treatment instrument that can
+            At this stage, through <strong>1.</strong> Participating in various artificial intelligence projects and
+            training, I have mastered classic
+            algorithm models and artificial intelligence models currently popular in various fields. <strong>2.</strong>
+            Participate in development-related
+            competitions and help lead the development of the system to further improve the understanding and
+            familiarity of application
+            development and the ability of teamwork development. <strong>3.</strong> Participated in the <i>Internet +
+            Chinese University Student Innovation
+            and Entrepreneurship Competition</i>, and participated in the design and invention of a diagnosis and
+            treatment instrument that can
             help diagnose mild cognitive impairment (MCI) in the elderly in advance.
             <br>
             <br>
@@ -139,19 +173,214 @@
         </div>
     </div>
     <div class="footer d-flex flex-column text-center mt-5">
-        <div class="social_link">
-            <a href="https://github.com/Hooorus/" class="mx-2"><i class="bi bi-github"></i></a>
-            <a href="https://www.youtube.com/" class="mx-2"><i class="bi bi-youtube"></i></a>
-            <a href="https://www.instagrtam.com/" class="mx-2"><i class="bi bi-instagram"></i></a>
-            <a href="https://www.twitter.com/" class="mx-2"><i class="bi bi-twitter"></i></a>
-            <a href="https://www.facebook.com/" class="mx-2"><i class="bi bi-facebook"></i></a>
-        </div>
         <div class="copy-right">2023 @Yiming Liao</div>
     </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous">
+</script>
+<script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/plugins/timeline.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+<!--<script type="module" src="./js/roadmap.js"></script>-->
+<script type="module">
+    // import roadmap from "./js/roadmap";
+    console.log(11)
+    // roadmapFunc();
+    console.log(11)
+
+    am4core.ready(function () {
+
+// Themes begin
+        am4core.useTheme(am4themes_animated);
+// Themes end
+
+        var chart = am4core.create("chartdiv", am4plugins_timeline.CurveChart);
+        chart.curveContainer.padding(0, 100, 0, 120);
+        chart.maskBullets = false;
+
+        var colorSet = new am4core.ColorSet();
+
+        chart.data = [{
+            "category": "",
+            "year": "1990",
+            "size": 13,
+            "text": "Lorem ipsum dolor"
+        }, {
+            "category": "",
+            "year": "1995",
+            "size": 5,
+            "text": "Sit amet"
+        }, {
+            "category": "",
+            "year": "2000",
+            "size": 9,
+            "text": "Consectetur adipiscing elit"
+        }, {
+            "category": "",
+            "year": "2005",
+            "size": 12,
+            "text": "Sed do eiusmod"
+        }, {
+            "category": "",
+            "year": "2010",
+            "size": 3,
+            "text": "Tempor incididunt"
+        }, {
+            "category": "",
+            "year": "2015",
+            "size": 9,
+            "text": "Ut labore et dolore"
+        }, {
+            "category": "",
+            "year": "2020",
+            "size": 4,
+            "text": "Magna aliqua"
+        }, {
+            "category": "",
+            "year": "2025",
+            "size": 3,
+            "text": "Ut enim ad minim veniam"
+        }, {
+            "category": "",
+            "size": 10,
+            "year": "2030",
+            "text": "Quis nostrud exercitation"
+        }
+        ];
+
+        chart.dateFormatter.inputDateFormat = "yyyy";
+
+        chart.fontSize = 11;
+        chart.tooltipContainer.fontSize = 11;
+
+        var categoryAxis = chart.yAxes.push(new am4charts.CategoryAxis());
+        categoryAxis.dataFields.category = "category";
+        categoryAxis.renderer.grid.template.disabled = true;
+
+        var dateAxis = chart.xAxes.push(new am4charts.DateAxis());
+        dateAxis.renderer.points = [{x: -400, y: 0}, {x: 0, y: 50}, {x: 400, y: 0}]
+        dateAxis.renderer.polyspline.tensionX = 0.8;
+        dateAxis.renderer.grid.template.disabled = true;
+        dateAxis.renderer.line.strokeDasharray = "1,4";
+        dateAxis.baseInterval = {period: "day", count: 1}; // otherwise initial animation will be not smooth
+
+        dateAxis.renderer.labels.template.disabled = true;
+
+        var series = chart.series.push(new am4plugins_timeline.CurveLineSeries());
+        series.strokeOpacity = 0;
+        series.dataFields.dateX = "year";
+        series.dataFields.categoryY = "category";
+        series.dataFields.value = "size";
+        series.baseAxis = categoryAxis;
+
+        var interfaceColors = new am4core.InterfaceColorSet();
+
+        series.tooltip.pointerOrientation = "down";
+
+        var distance = 100;
+        var angle = 60;
+
+        var bullet = series.bullets.push(new am4charts.Bullet());
+
+        var line = bullet.createChild(am4core.Line);
+        line.adapter.add("stroke", function (fill, target) {
+            if (target.dataItem) {
+                return chart.colors.getIndex(target.dataItem.index)
+            }
+        });
+
+        line.x1 = 0;
+        line.y1 = 0;
+        line.y2 = 0;
+        line.x2 = distance - 10;
+        line.strokeDasharray = "1,3";
+
+        var circle = bullet.createChild(am4core.Circle);
+        circle.radius = 30;
+        circle.fillOpacity = 1;
+        circle.strokeOpacity = 0;
+
+        var circleHoverState = circle.states.create("hover");
+        circleHoverState.properties.scale = 1.3;
+
+        series.heatRules.push({target: circle, min: 20, max: 50, property: "radius"});
+        circle.adapter.add("fill", function (fill, target) {
+            if (target.dataItem) {
+                return chart.colors.getIndex(target.dataItem.index)
+            }
+        });
+        circle.tooltipText = "{text}: {value}";
+        circle.adapter.add("tooltipY", function (tooltipY, target) {
+            return -target.pixelRadius - 4;
+        });
+
+        var yearLabel = bullet.createChild(am4core.Label);
+        yearLabel.text = "{year}";
+        yearLabel.strokeOpacity = 0;
+        yearLabel.fill = am4core.color("#fff");
+        yearLabel.horizontalCenter = "middle";
+        yearLabel.verticalCenter = "middle";
+        yearLabel.interactionsEnabled = false;
+
+        var label = bullet.createChild(am4core.Label);
+        label.propertyFields.text = "text";
+        label.strokeOpacity = 0;
+        label.horizontalCenter = "right";
+        label.verticalCenter = "middle";
+
+        label.adapter.add("opacity", function (opacity, target) {
+            if (target.dataItem) {
+                var index = target.dataItem.index;
+                var line = target.parent.children.getIndex(0);
+
+                if (index % 2 == 0) {
+                    target.y = -distance * am4core.math.sin(-angle);
+                    target.x = -distance * am4core.math.cos(-angle);
+                    line.rotation = -angle - 180;
+                    target.rotation = -angle;
+                } else {
+                    target.y = -distance * am4core.math.sin(angle);
+                    target.x = -distance * am4core.math.cos(angle);
+                    line.rotation = angle - 180;
+                    target.rotation = angle;
+                }
+            }
+            return 1;
+        });
+
+        var outerCircle = bullet.createChild(am4core.Circle);
+        outerCircle.radius = 30;
+        outerCircle.fillOpacity = 0;
+        outerCircle.strokeOpacity = 0;
+        outerCircle.strokeDasharray = "1,3";
+
+        var hoverState = outerCircle.states.create("hover");
+        hoverState.properties.strokeOpacity = 0.8;
+        hoverState.properties.scale = 1.5;
+
+        outerCircle.events.on("over", function (event) {
+            var circle = event.target.parent.children.getIndex(1);
+            circle.isHover = true;
+            event.target.stroke = circle.fill;
+            event.target.radius = circle.pixelRadius;
+            event.target.animate({property: "rotation", from: 0, to: 360}, 4000, am4core.ease.sinInOut);
+        });
+
+        outerCircle.events.on("out", function (event) {
+            var circle = event.target.parent.children.getIndex(1);
+            circle.isHover = false;
+        });
+
+        chart.scrollbarX = new am4core.Scrollbar();
+        chart.scrollbarX.parent = chart.bottomAxesContainer;
+        chart.scrollbarX.opacity = 0.5;
+        chart.scrollbarX.width = am4core.percent(80);
+        chart.scrollbarX.align = "center";
+
+    }); // end am4core.ready()
 </script>
 </body>
 </html>
